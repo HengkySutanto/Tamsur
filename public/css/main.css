@@ -1,0 +1,12 @@
+body.members {
+    background: #edf2f7;
+}
+
+body.home {
+    background-image:url('https://source.unsplash.com/1L71sPT5XKc');
+}
+
+input[type=date] {
+    padding-top:.4rem;
+    padding-bottom: .4rem;
+}
