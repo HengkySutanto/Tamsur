@@ -10,7 +10,7 @@
     <link href="/css/app.css" rel="stylesheet">
     <link href="/css/main.css" rel="stylesheet">
 </head>
-<body class=@yield('bodyClass')>
+<body class='@yield('bodyClass')'>
     @yield('navbar')
     @yield('content')
 

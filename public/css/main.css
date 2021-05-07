@@ -1,4 +1,5 @@
-body.members {
+body.members,
+body.attendances {
     background: #edf2f7;
 }
 
@@ -9,4 +10,17 @@ body.home {
 input[type=date] {
     padding-top:.4rem;
     padding-bottom: .4rem;
+}
+
+.header {
+    left: 0;
+    position: sticky;
+    z-index: 10;
+    max-width: 165px!important;
+}
+.student-name {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
 }

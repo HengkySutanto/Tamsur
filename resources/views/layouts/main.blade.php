@@ -26,6 +26,9 @@
                     <li class="mr-3">
                         <a class="inline-block text-gray-500 no-underline hover:text-gray-400 hover:text-underline py-2 px-4" href="{{ route('members') }}">Members</a>
                     </li>
+                    <li class="mr-3">
+                        <a class="inline-block text-gray-500 no-underline hover:text-gray-400 hover:text-underline py-2 px-4" href="{{ route('attendances') }}">Attendances</a>
+                    </li>
                 </ul>
             </div>
         </div>
